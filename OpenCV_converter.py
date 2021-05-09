@@ -105,8 +105,6 @@ class Root(Tk):
         self.label_converted.image = photo2
         self.label_converted.grid(column=2, row=6)
 
-
-
         self.label_info = Label(text="This photo was converted to gray and \n"
                                      "the threshold function was applied to the image\n"
                                      "ready for CV experiments :)")
